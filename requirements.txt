@@ -1,7 +1,9 @@
-yolk
-sqlalchemy
-flask
-nose
-Flask-Login
-Flask-SQLAlchemy
-PyMongo
+Flask==0.9
+Flask-Login==0.1.3
+Flask-SQLAlchemy==0.16
+Jinja2==2.6
+SQLAlchemy==0.7.8
+Werkzeug==0.8.3
+nose==1.1.2
+pymongo==2.3
+yolk==0.4.3
