@@ -1,0 +1,6 @@
+*.log
+*.pyc
+*.swp
+*.swo
+wsgi.py
+*.db

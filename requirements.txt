@@ -1,0 +1,7 @@
+yolk
+sqlalchemy
+flask
+nose
+Flask-Login
+Flask-SQLAlchemy
+PyMongo

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{ username }}'s blog
+{% endblock %}
+
+{% block content %}
+    <h1>{{ username }}'s blog</h1>
+    {% for post in posts %}
+        <h2>{{ post.title }}</h2>
+        <h6>Posted on {{ post.post_date.strftime('%Y-%m-%d') }}</h6>
+        {{ post.text|linebreaksp }}
+    {% endfor %}
+{% endblock %}

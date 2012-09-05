@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}
+    DDDBlog Login.
+{% endblock %}
+
+{% block content %}
+    <h1>DDDBlog</h1>
+    <h2>Login here.</h2>
+    <form method="post" action=".">
+        <table>
+            <tr>
+                <td><label>Username:</label></td>
+                <td><input name="username" type="text" /></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input name="password" type="password" /></td>
+            </tr>
+        </table>
+        <input type="submit" value="Log In!" />
+    </form>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Write a post
+{% endblock %}
+
+{% block content %}
+    <h1>{{ username }}'s DDDBlog scratchpad</h1>
+    <h2>Write a post. (Or <a style="border-bottom: 2px dotted black" href="/logout/">logout</a>. It's your life.)</h2>
+    <form method="post" action=".">
+        <table>
+            <tr>
+                <td><label>Title:</label></td>
+                <td><input name="title" type="text" /></td>
+            </tr>
+            <tr>
+                <td><label>Text:</label></td>
+                <td><textarea name="text"></textarea></td>
+            </tr>
+        </table>
+        <input type="submit" value="Publish!" />
+    </form>
+    <h2></h2>
+{% endblock %}
